@@ -10,15 +10,16 @@
   </head>
   <body>
     <?php
-      $web = "php";
-      $$web = "js";
+      $php = "php";
+      $js = "js";
 
+      $web = "{$php} - {$js}";
       print($web);
+
       print("<br/>");
-      print($php);
 
-      
-
+      $web = $php . " - " . $js;
+      print($web);
     ?>
   </body>
 </html>
