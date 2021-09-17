@@ -10,7 +10,7 @@
   </head>
   <body>
     <?php
-      print "php";
+      print("php");
     ?>
   </body>
 </html>
