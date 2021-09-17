@@ -10,7 +10,13 @@
   </head>
   <body>
     <?php
-      echo "Php";
+      echo <<<END
+      Lorem ipsum dolor sit amet, 
+      consectetur adipiscing elit. 
+      Maecenas hendrerit nulla et convallis consequat. 
+      Aliquam id aliquam enim. Suspendisse condimentum id arcu sit amet bibendum. 
+      In hac habitasse platea dictumst.
+      END;
     ?>
   </body>
 </html>
