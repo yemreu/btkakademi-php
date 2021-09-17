@@ -10,8 +10,7 @@
   </head>
   <body>
     <?php
-    $php = "php";
-      echo "Lorem {$php} ipsum dolor sit amet";
+      echo("Lorem ipsum dolor sit amet");
     ?>
   </body>
 </html>
