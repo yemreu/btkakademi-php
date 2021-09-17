@@ -9,8 +9,10 @@
     <script type="text/javascript" lang="javascript" src="script.js"></script>
   </head>
   <body>
+    <?="Lorem ipsum dolor sit amet"?>
     <?php
-      echo("Lorem ipsum dolor sit amet");
+      $php = "php";
     ?>
+    <?=$php?>
   </body>
 </html>
