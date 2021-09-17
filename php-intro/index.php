@@ -10,9 +10,7 @@
   </head>
   <body>
     <?php
-      echo "Php<br/>";
+      echo "Php";
     ?>
-    <input type="button" onclick="push()" value="İşlem Yap"/><br/><br/>
-    <div id="op"></div>
   </body>
 </html>
