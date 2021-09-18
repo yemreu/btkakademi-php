@@ -9,9 +9,8 @@
     <script type="text/javascript" lang="javascript" src="script.js"></script>
   </head>
   <body>
-    <form action="result.php" method="post">
-      First Name: <input type="text" name="firstName"/>
-      Last Name: <input type="text" name="lastName"/>
+    <form action="result.php" method="post"  enctype="multipart/form-data">
+      <input type="file" name="file"/>
       <input type="submit" value="submit"/>
     </form>
   </body>

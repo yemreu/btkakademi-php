@@ -10,10 +10,10 @@
   </head>
   <body>
     <?php
-        $firstName = $_REQUEST["firstName"];
-        $lastName = $_REQUEST["lastName"];
-        
-        print($firstName . " " . $lastName);
+        $file = $_FILES["file"];
+        print("<pre>");
+        print_r($file);
+        print("</pre>");
     ?>
   </body>
 </html>
