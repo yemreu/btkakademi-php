@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="tr-TR">
   <head>
@@ -10,9 +13,7 @@
   </head>
   <body>
     <?php
-      setcookie("Javascript","js");
-
-      print($_COOKIE["Javascript"]);
+      $_SESSION["js"] = "Javascript";
     ?>
   </body>
 </html>
