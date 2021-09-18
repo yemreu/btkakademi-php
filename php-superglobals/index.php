@@ -9,9 +9,10 @@
     <script type="text/javascript" lang="javascript" src="script.js"></script>
   </head>
   <body>
-    <form action="result.php" method="post"  enctype="multipart/form-data">
-      <input type="file" name="file"/>
-      <input type="submit" value="submit"/>
-    </form>
+    <?php
+      setcookie("Javascript","js");
+
+      print($_COOKIE["Javascript"]);
+    ?>
   </body>
 </html>
