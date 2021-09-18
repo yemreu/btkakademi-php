@@ -9,10 +9,11 @@
     <script type="text/javascript" lang="javascript" src="script.js"></script>
   </head>
   <body>
-    <form action="result.php" method="get">
-      First Name: <input type="text" name="firstName"/>
-      Last Name: <input type="text" name="lastName"/>
-      <input type="submit" value="submit"/>
-    </form>
+    <?php
+        $firstName = $_GET["firstName"];
+        $lastName = $_GET["lastName"];
+        
+        print($firstName . " " . $lastName);
+    ?>
   </body>
 </html>
