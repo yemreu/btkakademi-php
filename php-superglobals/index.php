@@ -9,7 +9,7 @@
     <script type="text/javascript" lang="javascript" src="script.js"></script>
   </head>
   <body>
-    <form action="result.php" method="get">
+    <form action="result.php" method="post">
       First Name: <input type="text" name="firstName"/>
       Last Name: <input type="text" name="lastName"/>
       <input type="submit" value="submit"/>

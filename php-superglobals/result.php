@@ -10,8 +10,8 @@
   </head>
   <body>
     <?php
-        $firstName = $_GET["firstName"];
-        $lastName = $_GET["lastName"];
+        $firstName = $_POST["firstName"];
+        $lastName = $_POST["lastName"];
         
         print($firstName . " " . $lastName);
     ?>
