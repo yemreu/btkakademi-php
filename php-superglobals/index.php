@@ -13,7 +13,7 @@ session_start();
   </head>
   <body>
     <?php
-      $_SESSION["js"] = "Javascript";
+      print($_SESSION["js"]);
     ?>
   </body>
 </html>
