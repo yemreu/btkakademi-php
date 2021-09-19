@@ -10,13 +10,24 @@
   </head>
   <body>
     <?php
-      class cl{
-        function func(){
-          print(__METHOD__ . "</br>");
+      trait T1{
+        function js(){
+          print(__TRAIT__);
         }
       }
-      $c = new cl();
-      $c->func();
+
+      trait T2{
+        function web(){
+          print(__TRAIT__);
+        }
+      }
+
+      class Cl{
+        use T1,T2;
+      }
+      $cl = new Cl();
+      $cl->js();
+      $cl->web();
     ?>
   </body>
 </html>
