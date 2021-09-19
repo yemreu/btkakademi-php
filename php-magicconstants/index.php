@@ -10,10 +10,13 @@
   </head>
   <body>
     <?php
-      function func(){
-        print(__FUNCTION__ . "</br>");
+      class cl{
+        function func(){
+          print(__CLASS__ . "</br>");
+        }
       }
-      func();
+      $c = new cl();
+      $c->func();
     ?>
   </body>
 </html>
