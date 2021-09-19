@@ -17,6 +17,12 @@
       print("<pre>");
       print_r($web);
       print("</pre>");
+
+      $web[1] = "html";
+
+      print("<pre>");
+      print_r($web);
+      print("</pre>");
     ?>
   </body>
 </html>
