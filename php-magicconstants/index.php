@@ -12,7 +12,7 @@
     <?php
       class cl{
         function func(){
-          print(__CLASS__ . "</br>");
+          print(__METHOD__ . "</br>");
         }
       }
       $c = new cl();
