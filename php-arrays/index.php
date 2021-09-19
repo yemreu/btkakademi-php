@@ -18,12 +18,16 @@
       print_r($web);
       print("</pre>");
 
-      $site = $web;
-
-      $site[] = "NodeJs";
+      $site = array("Google" => "google","facebook");
 
       print("<pre>");
       print_r($site);
+      print("</pre>");
+
+      $concat = $web + $site;
+
+      print("<pre>");
+      print_r($concat);
       print("</pre>");
     ?>
   </body>
