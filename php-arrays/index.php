@@ -18,10 +18,12 @@
       print_r($web);
       print("</pre>");
 
-      $web[1] = "html";
+      $site = $web;
+
+      $site[] = "NodeJs";
 
       print("<pre>");
-      print_r($web);
+      print_r($site);
       print("</pre>");
     ?>
   </body>
