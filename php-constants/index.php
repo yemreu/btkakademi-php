@@ -10,7 +10,7 @@
   </head>
   <body>
     <?php
-      define("js","Javascript");
+      const js = "Javascript";
       print(js);
     ?>
   </body>
