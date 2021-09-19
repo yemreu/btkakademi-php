@@ -10,28 +10,11 @@
   </head>
   <body>
     <?php
-      $web = array("php","js","ReactJs");
+      define("WEB",array("php","js","ReactJs"));
 
       print("<pre>");
-      print_r($web);
+      print_r(WEB);
       print("</pre>");
-
-      print($web[2]);
-
-      $words = array("Merhaba" => "Hello","Tree" => "Ağaç","Elma","Kitap" => "Book","Çatal");
-
-      print("<pre>");
-      print_r($words);
-      print("</pre>");
-
-      print($words["Tree"]);
-
-      $daysInAWeek = ["Monday","Tuesday","Wednesday"];
-
-      print("<pre>");
-      print_r($daysInAWeek);
-      print("</pre>");
-      
     ?>
   </body>
 </html>
