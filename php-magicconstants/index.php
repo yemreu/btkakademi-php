@@ -10,7 +10,7 @@
   </head>
   <body>
     <?php
-      print(__LINE__ . "</br>");
+      print(__DIR__ . "</br>");
     ?>
   </body>
 </html>
