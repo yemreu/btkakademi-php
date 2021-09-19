@@ -11,7 +11,12 @@
   <body>
     <?php
       const js = "Javascript";
-      print(js);
+      function func(){
+        print(js);
+        define("web","web");
+      }
+      func();
+      print(web);
     ?>
   </body>
 </html>
