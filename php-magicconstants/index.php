@@ -1,3 +1,6 @@
+<?php
+namespace Js;
+?>
 <!DOCTYPE html>
 <html lang="tr-TR">
   <head>
@@ -10,24 +13,7 @@
   </head>
   <body>
     <?php
-      trait T1{
-        function js(){
-          print(__TRAIT__);
-        }
-      }
-
-      trait T2{
-        function web(){
-          print(__TRAIT__);
-        }
-      }
-
-      class Cl{
-        use T1,T2;
-      }
-      $cl = new Cl();
-      $cl->js();
-      $cl->web();
+      print(__NAMESPACE__);
     ?>
   </body>
 </html>
