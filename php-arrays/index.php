@@ -10,9 +10,11 @@
   </head>
   <body>
     <?php
-      $php = "php";
-      define("JS","js");
-      $web = array($php,JS);
+      $web = array();
+
+      $web[] = "php";
+      $web[] = "js";
+      $web[] = "css";
 
       print("<pre>");
       print_r($web);
