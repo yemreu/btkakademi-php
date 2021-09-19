@@ -10,11 +10,9 @@
   </head>
   <body>
     <?php
-      $web = array();
-
-      $web[] = "php";
-      $web[] = "js";
+      $web = array("php","js");
       $web[] = "css";
+      $web["ReactJs"] = "ReactJs";
 
       print("<pre>");
       print_r($web);
