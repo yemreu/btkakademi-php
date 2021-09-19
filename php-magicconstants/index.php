@@ -10,7 +10,10 @@
   </head>
   <body>
     <?php
-      print(__FILE__ . "</br>");
+      function func(){
+        print(__FUNCTION__ . "</br>");
+      }
+      func();
     ?>
   </body>
 </html>
