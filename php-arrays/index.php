@@ -10,24 +10,14 @@
   </head>
   <body>
     <?php
-      $web = array("php","js");
-      $web[] = "css";
-      $web["ReactJs"] = "ReactJs";
+      $arr = array("php","js",array("Blue","DaysInAWeek" => array("Monday","Tuesday"),"css",array("Book","Apple")));
 
+      print($arr[1]."<br/>");
+      print($arr[2][1]."<br/>");
+      print($arr[2]["DaysInAWeek"][1]);
+      
       print("<pre>");
-      print_r($web);
-      print("</pre>");
-
-      $site = array("Google" => "google","facebook");
-
-      print("<pre>");
-      print_r($site);
-      print("</pre>");
-
-      $concat = $web + $site;
-
-      print("<pre>");
-      print_r($concat);
+      print_r($arr);
       print("</pre>");
     ?>
   </body>
